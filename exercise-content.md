@@ -1,5 +1,5 @@
 ## Review and share changes
-Git fetch, pull, and push are commands that help you understand and synchronize work between local and remote repositories.
+These git commands help you understand and synchronize work between local and remote repositories.
 
 ### Fetch
 
