@@ -16,6 +16,6 @@ When you're ready, use `git merge` to integrate changes into your local working 
 
 
 ### Push
-- `git push` - sent changes from a local branch to a remote repo
+`git push` sends your local commits to the tracking branch in your remote repository.
 
-`git push` takes our current branch, and checks to see whether or not there is a tracking branch for a remote repository connected to it. If so, our changes are taken from our branch and pushed to the remote branch. This is how code is shared with a remote repository, you can think of it as "make the remote branch resemble my local branch". This will fail if the remote branch has diverged from your local branch: if not all the commits in the remote branch are in your local branch. When this happens, your local branch needs to be synchronized with the remote branch with git pull or git fetch and git merge.
+Before you can push, you must update your local branch with the latest commits from the remote branch using either `git pull` or `git fetch` and then `git merge`. After you push, you may want to submit a pull request to merge your changes with the main development branch.
