@@ -3,14 +3,18 @@ Git fetch, pull, and push are commands that help you understand and synchronize 
 
 ### Fetch
 
-`git fetch` downloads all of the branches, tags, and changes from a remote repository into your local repository without changing your local files. This allows you to review changes before you add them into your work. 
+`git fetch` downloads all of the branches, tags, and changes from a remote repository into your local repository without changing your local files. This allows you to review changes before you add them into your work.
 
 When you're ready, use `git merge` to integrate changes into your local working branch.
 
 ### Pull
-- `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
 
-`git pull` simply does a `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
+`git pull` combines two actions into the same operation:
+1. Download all of the branches, tags, and changes from a remote repository into your local repository.
+
+2. Integrate the changes from a remote tracking branch into your local tracking branch.
+
+This is equivalent to performing a `git fetch` and then a `git merge`. 
 
 ### Push
 - `git push` - sent changes from a local branch to a remote repo
