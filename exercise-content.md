@@ -10,11 +10,10 @@ When you're ready, use `git merge` to integrate changes into your local working 
 ### Pull
 
 `git pull` combines two actions into the same operation:
-1. Download all of the branches, tags, and changes from a remote repository into your local repository.
+1. Download all of the branches, tags, and changes from a remote repository into your local repository. This is equivalent to performing a `git fetch`.
 
-2. Integrate the changes from a remote tracking branch into your local tracking branch.
+2. Integrate the changes from a remote tracking branch into your local tracking branch. This is equivalent to performing a `git merge`.
 
-This is equivalent to performing a `git fetch` and then a `git merge`. 
 
 ### Push
 - `git push` - sent changes from a local branch to a remote repo
