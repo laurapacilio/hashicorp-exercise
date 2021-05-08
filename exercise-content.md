@@ -1,5 +1,5 @@
 ## What is the difference between push, pull, and fetch?
-Often `git push` and `git pull` are described as equivalent. This isn't entirely correct, since under the hood `git pull` does two things.
+Git fetch, pull, and push are commands that help you understand and synchronize changes between a local and remote repository. 
 
 ### Push
 - `git push` - sent changes from a local branch to a remote repo
