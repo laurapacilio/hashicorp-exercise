@@ -1,5 +1,5 @@
-## What is the difference between fetch, pull, and push?
-Git fetch, pull, and push are commands that help you understand and synchronize changes between a local and remote repository.
+## Review and share changes
+Git fetch, pull, and push are commands that help you understand and synchronize work between local and remote repositories.
 
 ### Fetch
 
